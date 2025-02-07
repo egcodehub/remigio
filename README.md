@@ -8,8 +8,10 @@ Single player implementation for the card game Remigio.
 
 ## Building on Windows
 
+```
 cd Client
 dotnet build -c Release
 Xcopy ..\Assets bin\Release\Assets\ /E
 bin\Release\net6.0\Client.exe
+```
 
